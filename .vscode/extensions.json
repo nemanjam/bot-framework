@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "mikestead.dotenv",
+    "ms-python.python",
+    "ms-python.black-formatter",
+    "ms-python.vscode-pylance"
+  ]
+}
