@@ -23,3 +23,9 @@ PYTHONPATH=. alembic -c migrations/alembic.ini -x db=dev upgrade head
 // .vscode/extensions.json
 // .vscode/settings.json
 ```
+
+### Start app
+
+```bash
+flask run
+```
