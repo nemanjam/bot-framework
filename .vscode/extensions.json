@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "ms-vscode-remote.remote-containers",
+    "ms-azuretools.vscode-docker",
     "mikestead.dotenv",
     "ms-python.python",
     "ms-python.black-formatter",
