@@ -41,3 +41,18 @@ flask run
 
 
 ```
+### Start container
+
+```yaml
+# either flask run and bind 5000 on start
+command: sh -c 'cd .. && flask run' # this doesn't work
+ports:
+    - '5000:5000'
+
+# or sleep infinity and leave 5000 free, then flask run will ask vs code to forward port
+command: sleep infinity # that's it
+flask run # in terminal
+# can use or not, either is fine
+"forwardPorts": [5000],
+```
+
