@@ -29,3 +29,15 @@ PYTHONPATH=. alembic -c migrations/alembic.ini -x db=dev upgrade head
 ```bash
 flask run
 ```
+
+### New how to run in container
+
+```bash
+# migrate db
+alembic -c migrations/alembic.ini -x db=dev upgrade head
+
+# run flask on port 5000
+flask run
+
+
+```
