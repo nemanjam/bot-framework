@@ -11,6 +11,7 @@
 - naming system services in docker-compose.yml
 - update dependencies
 - setup format on save, .vscode/settings.json
+- flask crash course brad traversy
 
 ### docker-compose.yml separate folder - ask
 
