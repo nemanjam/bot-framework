@@ -12,6 +12,7 @@
 - update dependencies
 - setup format on save, .vscode/settings.json
 - flask crash course brad traversy
+- read flask docs
 
 ### docker-compose.yml separate folder - ask
 
